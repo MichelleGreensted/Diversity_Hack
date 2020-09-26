@@ -1,0 +1,7 @@
+/* Background: #F8F9F9
+/* Font: #424949
+/* Boarder: #D5D8DC
+/* Navbar and Footer: #D5D8DC and hover #212F3D 
+/* Green: #14F00C
+/* Blue: #05CBD6
+/* Orange: #FC9D2B
