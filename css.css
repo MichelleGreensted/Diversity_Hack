@@ -91,27 +91,47 @@ html {
     padding: 0% 5% 5%;
 }
 
+
+/* Top 10 UK Diverse Employers ------------------------------------------------------------*/
+
+section {
+    text-align: center;
+}
+
+.DiverseEmployersTitle {
+    color: #14F00C;
+}
+
+
+
+
+/* Popular Job Application Sites ------------------------------------------------------------*/
+
+aside {
+    text-align: center;
+}
+
 .JobApplicationSitesTitle {
     color: #07CAE2;
 }
 
-.JobApplicationSitesLinks {
+.links {
     color: #424949;
 }
 
-.JobApplicationSitesLinks1:hover {
+.links1:hover {
     color: #FC9D2B;
 }
 
-.JobApplicationSitesLinks2:hover {
+.links2:hover {
     color: #14F00C;
 }
 
-.JobApplicationSitesLinks3:hover {
+.links3:hover {
     color: #07CAE2;
 }
 
-.JobApplicationSitesLinks4:hover {
+.links4:hover {
     color: #FC9D2B;
 }
 
