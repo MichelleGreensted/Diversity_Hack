@@ -1,12 +1,11 @@
 /* Colours ---------------------------------------------------------------*/
 /* Background: #F8F9F9
 /* Font: #424949
-/* Border: #D5D8DC
+/* Boarder: #D5D8DC
 /* Navbar and Footer: #D5D8DC and hover #AEB6BF 
 /* Green: #14F00C
 /* Blue: #07CAE2
 /* Orange: #FC9D2B
-
 /* Global Styles ---------------------------------------------------------*/
 html {
     box-sizing: border-box;
@@ -39,7 +38,7 @@ html {
 }
 
 .link {
-    color:#D5D8DC;
+    color: #D5D8DC;
     text-decoration: none;
 }
 
@@ -50,9 +49,8 @@ html {
 
 
 /* Navbar ---------------------------------------------------------*/
-
 .navbar {
-    background-color: whitesmoke;
+    background-color: #212F3D;
 }
 
 .navbar ul {
@@ -64,32 +62,29 @@ html {
 
 .navbar a {
     display: block;
-    background:transparent;
+    background-color:transparent;
     text-decoration: none;
     padding: 10px 16px;
-    color:#ff4b96;
 }
 
 .navbar a:hover {
     background:transparent;
     text-decoration: underline;
-    text-decoration-color: #FC9D2B;
+    text-decoration-color: #fa3497;
     padding: 10px 16px;
-    color:white;
 }
 
 .createaccount {
     font-size: 80%;
 }
 
-
 /* HOME PAGE ---------------------------------------------------------*/
 
 /* Heading ---------------------------------------------------------*/
 .header {
     font-family: 'Open Sans', sans-serif;
-    background-image: url("orangepink.svg");
-   
+    background-image:url("orangepink.svg");
+    background-size: 100% 100%;
     color: whitesmoke;
     text-align: center;
     padding: 0% 5% 5%;
@@ -97,12 +92,12 @@ html {
     padding-bottom: 10%;
 }
 
+
 /* Top 10 UK Diverse Employers ------------------------------------------------------------*/
 
 section {
     text-align: center;
     padding-bottom: 3%;
-    background-color: rgb(235, 235, 235);
 }
 
 .DiverseEmployersTitle {
@@ -158,7 +153,7 @@ article {
 }
 
 .summary {
-    background-color:#F8F9F9;
+    background-color: rgb(235, 235, 235);
     border-bottom: 1px dashed #D5D8DC;
 }
 
@@ -185,6 +180,7 @@ article {
     font-size: 70%;
 }
 
+
 /* User Stories ---------------------------------------------------------*/
 .card {
     margin: 0 auto;
@@ -201,7 +197,7 @@ article {
 
 /* Footer ---------------------------------------------------------*/
 .footer {
-    background-color: #6d6d6d;
+    background-color: #212F3D;
 }
 
 .footer ul {
@@ -215,14 +211,14 @@ article {
 
 .footer a {
     display: block;
-    background-color: #6d6d6d;
+    background-color: #212F3D;
     color: #F8F9F9;
     text-decoration: none;
     padding: 10px 16px;
 }
 
 .footer a:hover {
-    background-color: #fc97c6;
+    background: #304153;
     text-decoration: underline;
     text-decoration-color: #FC9D2B;
 }
@@ -230,17 +226,18 @@ article {
 .btn {
     font-size: 105%;
     display: inline-block;
+
 }
 
 .btn-primary {
-    border-color: #ff4b96;
+    border-color:#304153;
+
 }
 
 .btn-primary-apply {
     background-color: transparent;
-    color: #F8F9F9;
     border-color: white;
-    
+    color: #F8F9F9;
 }
 
 
@@ -275,10 +272,6 @@ article {
         display: inline-block;
         padding-right: 2%;
     }
-    .nav-item {
-        font-size: 90%;
-    }
-
     .header {
         grid-column: 1 / span 12;
         grid-row: 3;
@@ -286,7 +279,7 @@ article {
         text-align: center;
     }
     .header h1 {
-        font-size: 300%;
+        font-size: 290%;
     }
     .summary h2 {
         font-size: 150%;
@@ -295,7 +288,7 @@ article {
         grid-column: 1 / span 12;
         grid-row: 4;
         border-bottom: 1px dashed #D5D8DC;
-        padding: auto;
+        padding: 3%;
     }
     .summary p {
         font-size: 90%;
@@ -316,4 +309,4 @@ article {
         font-size: 105%;
         display: inline-block;
     }
-}
+ 
