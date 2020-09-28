@@ -1,7 +1,7 @@
 /* Colours ---------------------------------------------------------------*/
 /* Background: #F8F9F9
 /* Font: #424949
-/* Boarder: #D5D8DC
+/* Border: #D5D8DC
 /* Navbar and Footer: #D5D8DC and hover #AEB6BF 
 /* Green: #14F00C
 /* Blue: #07CAE2
@@ -39,7 +39,7 @@ html {
 }
 
 .link {
-    color: #D5D8DC;
+    color:#D5D8DC;
     text-decoration: none;
 }
 
@@ -50,8 +50,9 @@ html {
 
 
 /* Navbar ---------------------------------------------------------*/
+
 .navbar {
-    background-color: #212F3D;
+    background-color: whitesmoke;
 }
 
 .navbar ul {
@@ -63,45 +64,45 @@ html {
 
 .navbar a {
     display: block;
-    background-color: #212F3D;
+    background:transparent;
     text-decoration: none;
     padding: 10px 16px;
+    color:#ff4b96;
 }
 
 .navbar a:hover {
-    background: #212F3D;
+    background:transparent;
     text-decoration: underline;
     text-decoration-color: #FC9D2B;
     padding: 10px 16px;
+    color:white;
 }
 
-.navbar-text {
-    text-align: right;
+.createaccount {
+    font-size: 80%;
 }
 
-.accountinfo {
-    
-}
 
 /* HOME PAGE ---------------------------------------------------------*/
 
 /* Heading ---------------------------------------------------------*/
 .header {
     font-family: 'Open Sans', sans-serif;
-    background-color:#F8F9F9;
-    color: black;
+    background-image: url("orangepink.svg");
+   
+    color: whitesmoke;
     text-align: center;
     padding: 0% 5% 5%;
     padding-top: 15%;
     padding-bottom: 10%;
 }
 
-
 /* Top 10 UK Diverse Employers ------------------------------------------------------------*/
 
 section {
     text-align: center;
     padding-bottom: 3%;
+    background-color: rgb(235, 235, 235);
 }
 
 .DiverseEmployersTitle {
@@ -157,7 +158,7 @@ article {
 }
 
 .summary {
-    background-color: rgb(235, 235, 235);
+    background-color:#F8F9F9;
     border-bottom: 1px dashed #D5D8DC;
 }
 
@@ -184,7 +185,6 @@ article {
     font-size: 70%;
 }
 
-
 /* User Stories ---------------------------------------------------------*/
 .card {
     margin: 0 auto;
@@ -201,7 +201,7 @@ article {
 
 /* Footer ---------------------------------------------------------*/
 .footer {
-    background-color: #212F3D;
+    background-color: #6d6d6d;
 }
 
 .footer ul {
@@ -215,14 +215,14 @@ article {
 
 .footer a {
     display: block;
-    background-color: #212F3D;
+    background-color: #6d6d6d;
     color: #F8F9F9;
     text-decoration: none;
     padding: 10px 16px;
 }
 
 .footer a:hover {
-    background: #304153;
+    background-color: #fc97c6;
     text-decoration: underline;
     text-decoration-color: #FC9D2B;
 }
@@ -233,12 +233,14 @@ article {
 }
 
 .btn-primary {
-    border-color: #425b74;
+    border-color: #ff4b96;
 }
 
 .btn-primary-apply {
-    background-color: #FC9D2B;
+    background-color: transparent;
     color: #F8F9F9;
+    border-color: white;
+    
 }
 
 
@@ -273,6 +275,10 @@ article {
         display: inline-block;
         padding-right: 2%;
     }
+    .nav-item {
+        font-size: 90%;
+    }
+
     .header {
         grid-column: 1 / span 12;
         grid-row: 3;
