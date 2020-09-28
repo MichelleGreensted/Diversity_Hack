@@ -115,12 +115,6 @@ section {
 
 /* Popular Job Application Sites ------------------------------------------------------------*/
 
-.terrestrialPlanetsSum {
-    text-align: center;
-    padding-top: 0%;
-    padding-bottom: 0%;
-}
-
 .JobApplicationSitesTitle {
     color: #212F3D;
     text-align: center;
@@ -189,6 +183,21 @@ article {
     padding-top: 7%;
     font-size: 70%;
 }
+
+
+/* User Stories ---------------------------------------------------------*/
+.card {
+    margin: 0 auto;
+    width: 80%;
+    margin: 10%;
+}
+
+.commentForm {
+    margin: 0 auto;
+    width: 80%;
+    margin: 10%;
+}
+
 
 /* Footer ---------------------------------------------------------*/
 .footer {
