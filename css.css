@@ -282,7 +282,7 @@ article {
     .header {
         grid-column: 1 / span 12;
         grid-row: 3;
-        width: 130%;
+        width: 100%;
         text-align: center;
     }
     .header h1 {
@@ -315,10 +315,5 @@ article {
     .btn {
         font-size: 105%;
         display: inline-block;
-    }
-    .header {
-        grid-column: 3 / span 6;
-        grid-row: 3;
-        text-align: center;
     }
 }
