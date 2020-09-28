@@ -10,7 +10,7 @@
 /* Global Styles ---------------------------------------------------------*/
 html {
     box-sizing: border-box;
-    font-family: arial, helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 115%;
     background-color: #F8F9F9;
 }
@@ -79,16 +79,21 @@ html {
     text-align: right;
 }
 
+.accountinfo {
+    
+}
 
 /* HOME PAGE ---------------------------------------------------------*/
 
 /* Heading ---------------------------------------------------------*/
 .header {
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Open Sans', sans-serif;
     background-color:#F8F9F9;
     color: black;
-    text-align: left;
+    text-align: center;
     padding: 0% 5% 5%;
+    padding-top: 15%;
+    padding-bottom: 10%;
 }
 
 
@@ -96,23 +101,30 @@ html {
 
 section {
     text-align: center;
+    padding-bottom: 3%;
 }
 
 .DiverseEmployersTitle {
-    color: #14F00C;
+    color: #212F3D;
+    padding-top: 5%;
 }
 
-
-
+.DiverseEmployersP {
+    color: rgb(189, 189, 189);
+}
 
 /* Popular Job Application Sites ------------------------------------------------------------*/
 
-aside {
+.terrestrialPlanetsSum {
     text-align: center;
+    padding-top: 0%;
+    padding-bottom: 0%;
 }
 
 .JobApplicationSitesTitle {
-    color: #07CAE2;
+    color: #212F3D;
+    text-align: center;
+    padding-top: 2%;
 }
 
 .links {
@@ -120,21 +132,30 @@ aside {
 }
 
 .links1:hover {
-    color: #FC9D2B;
+    color: #fc5c2b;
 }
 
 .links2:hover {
-    color: #14F00C;
-}
-
-.links3:hover {
-    color: #07CAE2;
-}
-
-.links4:hover {
     color: #FC9D2B;
 }
 
+.links3:hover {
+    color: #66cc4d;
+}
+
+.links4:hover {
+    color: #2dbed1;
+}
+
+.links5:hover {
+    color: #9f49d8;
+}
+
+/* Blog ------------------------------------------------------------*/
+
+.blog-text {
+    padding: 10%;
+}
 
 /* Article ---------------------------------------------------------*/
 article {
@@ -142,15 +163,17 @@ article {
 }
 
 .summary {
-    background-color: #F8F9F9;
+    background-color: rgb(235, 235, 235);
     border-bottom: 1px dashed #D5D8DC;
 }
 
 .summary h2 {
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Open Sans', sans-serif;
     color: #424949;
-    text-align: center;
-    padding: 5%;
+    text-align: left;
+    padding: 1%;
+    padding-left: 10%;
+    padding-top: 3%;
 }
 
 .summary p {
@@ -164,9 +187,8 @@ article {
 /* Header ---------------------------------------------------------*/
 .pagesTitle {
     padding-top: 7%;
-    font-size: 110%;
+    font-size: 70%;
 }
-
 
 /* Footer ---------------------------------------------------------*/
 .footer {
@@ -176,7 +198,10 @@ article {
 .footer ul {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 5%;
+    color: #F8F9F9;
+    font-size: 80%;
+    align-items: center;
 }
 
 .footer a {
@@ -188,7 +213,7 @@ article {
 }
 
 .footer a:hover {
-    background: #212F3D;
+    background: #304153;
     text-decoration: underline;
     text-decoration-color: #FC9D2B;
 }
@@ -197,6 +222,16 @@ article {
     font-size: 105%;
     display: inline-block;
 }
+
+.btn-primary {
+    border-color: #425b74;
+}
+
+.btn-primary-apply {
+    background-color: #FC9D2B;
+    color: #F8F9F9;
+}
+
 
 .btn:hover {
     color: #F8F9F9;
@@ -236,13 +271,19 @@ article {
         text-align: center;
     }
     .header h1 {
-        font-size: 450%;
+        font-size: 300%;
+    }
+    .summary h2 {
+        font-size: 150%;
     }
     .summary {
         grid-column: 1 / span 12;
         grid-row: 4;
         border-bottom: 1px dashed #D5D8DC;
         padding: auto;
+    }
+    .summary p {
+        font-size: 90%;
     }
     .footer {
         grid-column: 1 / span 12;
@@ -254,7 +295,7 @@ article {
     .footer ul {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-        text-align: center;
+        text-align: left;
     }
     .btn {
         font-size: 105%;
