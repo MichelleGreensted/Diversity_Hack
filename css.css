@@ -70,7 +70,7 @@ html {
 .navbar a:hover {
     background:transparent;
     text-decoration: underline;
-    text-decoration-color: #fa3497;
+    text-decoration-color: #56bcff;
     padding: 10px 16px;
 }
 
@@ -170,11 +170,27 @@ article {
 
 .summary p {
     color: #424949;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 0%;
+    padding-right: 0%;
     padding-bottom: 1%;
+ 
 }
 
+#mission {
+    color: #424949;
+    padding-left: 10%;
+    padding-right: 0%;
+    padding-bottom: 1%;
+ 
+}
+
+.summaryinfo {
+    color: #424949;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 1%;
+    background-color:  rgb(235, 235, 235);
+}
 
 /* Header ---------------------------------------------------------*/
 .pagesTitle {
@@ -188,7 +204,9 @@ article {
     margin: 0 auto;
     width: 80%;
     margin: 10%;
+
 }
+
 
 .commentForm {
     margin: 0 auto;
@@ -233,7 +251,12 @@ article {
 
 .btn-primary {
     border-color:#304153;
+}
 
+
+.btn-primary:hover {
+    border-color:#304153;
+    background-color: hotpink
 }
 
 .btn-primary-apply {
@@ -311,4 +334,72 @@ article {
         font-size: 105%;
         display: inline-block;
     }
- 
+    
+    /* Blog section -------------*/
+    
+    body {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 85%;
+      }
+      
+      /* Create two unequal columns that floats next to each other */
+      /* Left column */
+      .leftcolumn {
+        float: left;
+        width: 75%;
+        padding-left: 5%;
+        padding-top: 3%;
+        padding-right: 2%;
+      }
+
+      #more {display: none;}
+      #more2 {display: none;}
+      
+      /* Right column */
+      .rightcolumn {
+        float: left;
+        width: 25%;
+        padding-left:0%;
+        padding-right: 7%;
+        padding-top: 3%;
+      }
+      
+      /* Fake image */
+      .fakeimg {
+        background-image:url("blogquote1.png");
+        background-size: 100% 100%;
+        width: 100%;
+        padding:20px;
+      }
+      
+      .fakeimg2 {
+        background-image:url("diversity.jpg");
+        background-size: 100% 100%;
+        width: 100%;
+        padding:20px;
+      }
+
+      /* Add a card effect for articles */
+   
+      
+      .card1 {
+        padding: 20px;
+        padding-top: 20px;
+        background-color:  rgb(235, 235, 235);
+        padding-bottom: 9%;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+
+      /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 800px) {
+        .leftcolumn, .rightcolumn {
+        width: 100%;
+          padding: 0; 
+        }
