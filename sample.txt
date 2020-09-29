@@ -1,0 +1,13 @@
+CV/Resume
+Personal Information Section:
+r **Name
+r **Address [option to place with ‘available to work in X area’ type info?]
+**Phone number
+r **Email address [usually includes a name so we could hide it and employers can still contact them by email through our platform]
+
+Main Body of CV 
+Cover Letter
+Main Body of Cover Letter
+Accompanying Documents
+Main Body of Document
+[Add] button to repeat for as many other documents as needed
