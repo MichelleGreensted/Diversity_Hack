@@ -215,6 +215,35 @@ article {
 }
 
 
+
+/* Blog ---------------------------------------------------------*/
+.RowSummary {
+    padding: 10%;
+}
+
+.card1 {
+    padding-top: 10%;
+}
+
+.fakeimg {
+    font-size: 85%;
+    border-bottom: 2px dashed #FC9D2B;
+    padding-top: 1%;
+    padding-bottom: 10%;
+}
+
+.card1 {
+    padding: 20px;
+    padding-top: 20px;
+    background-color:  rgb(235, 235, 235);
+    padding-bottom: 9%;
+}
+
+.right {
+    font-size: 95%;
+}
+
+
 /* Footer ---------------------------------------------------------*/
 .footer {
     background-color: #212F3D;
@@ -337,71 +366,93 @@ article {
     
     /* Blog section -------------*/
     
-    body {
+    /* body {
         font-family: 'Open Sans', sans-serif;
         font-size: 85%;
-      }
+      } */
       
       /* Create two unequal columns that floats next to each other */
       /* Left column */
-      .leftcolumn {
-        float: left;
+
+      .column {
+          float: left;
+          width: 50%;
+          padding: 10px;
+      }
+
+      .left {
+        width: 65%;
+      }
+      
+      .right {
+        width: 35%;
+        font-size: 90%;
+      }
+
+      .right h5 {
+          text-align: center;
+      }
+
+    /* .leftcolumn {
+        grid-column: 1 / span 6;
+        grid-row: 12;
         width: 75%;
         padding-left: 5%;
         padding-top: 3%;
         padding-right: 2%;
-      }
+    } */
 
-      #more {display: none;}
-      #more2 {display: none;}
+    #more {display: none;}
+    #more2 {display: none;}
       
-      /* Right column */
-      .rightcolumn {
-        float: left;
+    /* Right column */
+    /* .rightcolumn {
+        grid-column: 7 / span 12;
+        grid-row: 1;
         width: 25%;
         padding-left:0%;
         padding-right: 7%;
         padding-top: 3%;
-      }
+      } */
       
-      /* Fake image */
-      .fakeimg {
+    /* Fake image */
+    /* .fakeimg {
         background-image:url("blogquote1.png");
         background-size: 100% 100%;
         width: 100%;
         padding:20px;
-      }
+    } */
       
-      .fakeimg2 {
+    /* .fakeimg2 {
         background-image:url("diversity.jpg");
         background-size: 100% 100%;
         width: 100%;
         padding:20px;
-      }
+    } */
 
-      /* Add a card effect for articles */
+    /* Add a card effect for articles */
    
       
-      .card1 {
+    .card1 {
         padding: 20px;
         padding-top: 20px;
         background-color:  rgb(235, 235, 235);
         padding-bottom: 9%;
-      }
+    }
       
-      /* Clear floats after the columns */
-      .row:after {
+    /* Clear floats after the columns */
+    .row:after {
         content: "";
         display: table;
         clear: both;
-      }
+    }
       
 
-      /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+      /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other
       @media screen and (max-width: 800px) {
         .leftcolumn, .rightcolumn {
         width: 100%;
           padding: 0; 
         }
-    }
+    } */
 }
