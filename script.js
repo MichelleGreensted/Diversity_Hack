@@ -1,4 +1,4 @@
-function myFunction() {
+function myFunction1() {
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("more");
     var btnText = document.getElementById("myBtn");
@@ -15,7 +15,7 @@ function myFunction() {
   }
 
 
-  function myFunction() {
+  function myFunction2() {
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("more2");
     var btnText = document.getElementById("myBtn2");
