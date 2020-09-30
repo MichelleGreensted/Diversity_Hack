@@ -159,35 +159,31 @@ article {
     border-bottom: 1px dashed #D5D8DC;
 }
 
+.logoSummary {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .summary h2 {
     font-family: 'Open Sans', sans-serif;
     color: #424949;
-    text-align: left;
-    padding: 1%;
-    padding-left: 10%;
+    text-align: center;
     padding-top: 3%;
 }
 
 .summary p {
     color: #424949;
-    padding-left: 0%;
-    padding-right: 0%;
     padding-bottom: 1%;
- 
 }
 
-#mission {
+.mission {
     color: #424949;
-    padding-left: 10%;
-    padding-right: 0%;
-    padding-bottom: 1%;
- 
+    padding: 1% 10%;
 }
 
 .summaryinfo {
     color: #424949;
-    padding-left: 0%;
-    padding-right: 0%;
     padding-bottom: 1%;
     background-color:  rgb(235, 235, 235);
 }
@@ -204,7 +200,6 @@ article {
     margin: 0 auto;
     width: 80%;
     margin: 10%;
-
 }
 
 
@@ -335,17 +330,27 @@ article {
     .header h1 {
         font-size: 290%;
     }
+    .summary {
+        border-bottom: 1px dashed #D5D8DC;
+        padding: 3% 5%;
+    }
+    .logoSummary {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+    .mission {
+        padding-right: 8%;
+        width: 60%;
+        float: right;
+    }
     .summary h2 {
         font-size: 150%;
     }
-    .summary {
-        grid-column: 1 / span 12;
-        grid-row: 4;
-        border-bottom: 1px dashed #D5D8DC;
-        padding: 3%;
-    }
     .summary p {
         font-size: 90%;
+        display: inline;
     }
     .footer {
         grid-column: 1 / span 12;
