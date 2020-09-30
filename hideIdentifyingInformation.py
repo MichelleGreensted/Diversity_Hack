@@ -6,7 +6,7 @@ def find_Index (word, file_name):  #function takes in the identifying word and t
 
 def hide_Entire_Line (i, file_name):
     lines = open(file_name).read().splitlines() #open file, 
-    lines[i] = '***********************'
+    lines[i] = '***********'
     open('out.txt', "w").write('\n'.join(lines))
 
 hide_Entire_Line(find_Index("Name", "sample.txt"), "sample.txt")
