@@ -409,6 +409,11 @@ article {
 
     #more {display: none;}
     #more2 {display: none;}
+    #more3 {display: none;}
+
+        .right h8 {
+            font-size: 70%;
+        }
       
     /* Right column */
     /* .rightcolumn {
