@@ -202,6 +202,15 @@ article {
     margin: 10%;
 }
 
+.dashed {
+    border-bottom: 2px dashed #FC9D2B;
+    margin: 5%;
+}
+
+.dashed2 {
+    border-bottom: 2px dashed #07CAE2;
+    margin: 5%;
+}
 
 .commentForm {
     margin: 0 auto;
@@ -216,10 +225,6 @@ article {
     padding: 10%;
 }
 
-.card1 {
-    padding-top: 10%;
-}
-
 .fakeimg {
     font-size: 85%;
     border-bottom: 2px dashed #FC9D2B;
@@ -229,13 +234,18 @@ article {
 
 .card1 {
     padding: 20px;
-    padding-top: 20px;
+    padding-top: 10%;
     background-color:  rgb(235, 235, 235);
     padding-bottom: 9%;
 }
 
 .right {
     font-size: 95%;
+}
+
+.dashed3 {
+    border-bottom: 2px dashed #07CAE2;
+    margin-bottom: 6%;
 }
 
 
